@@ -1,0 +1,13 @@
+Package: mojito
+Type: Package
+Title: Datasets for teaching and learning extreme value modelling
+Version: 0.1
+Date: 2018-10-16
+Author: Harry Sourthworth
+Maintainer: Harry Southworth <harry@dataclarityconsulting.co.uk>
+Description: Various public domain datasets in one place for ease of giving
+  access to a class full of people.
+Depends: tidyverse
+License: Not specified
+LazyData: true
+RoxygenNote: 6.1.0
