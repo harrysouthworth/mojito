@@ -4,12 +4,14 @@
 \name{azn}
 \alias{azn}
 \title{AstraZeneca London Stock Exchange share price}
-\format{A \code{data.frame}:
+\format{
+A \code{data.frame}:
 \describe{
   \item{date}{The date.}
   \item{open,high,low,close}{The opening price, high, low and closing price.}
   \item{volume}{Volume of shares traded}
-}}
+}
+}
 \source{
 Various financial websites carry the data. Search for "UK share prices"
 and you'll find some.

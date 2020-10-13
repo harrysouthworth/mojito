@@ -3,22 +3,19 @@
 \docType{data}
 \name{KNMIdata}
 \alias{KNMIdata}
-\title{3-day maximal wind gusts, Netherlands
- 
-3-day maxima measured in 0.1 m/s from only the summer months of June, July, August, between 1st January 1990 to May 16th 2012. 
-Locations of the 22 inland weather stations in the Netherlands at which the data are measured are also given.}
-\format{A \code{list} with the following elements:
+\title{3-day maximal wind gusts, Netherlands}
+\format{
+A \code{list} with the following elements:
 \describe{
   \item{data}{A \code{matrix} whose columns correspond to spatial locaitons of stations, and rows to observed wind gusts speeds.}
   \item{loc}{A \code{matrix} with 2 columns corresponding to x- and y- coordinates of measurement locations respectively, in the order in which the stations appear in the \code{data} object; distance units are not specified.}
-}}
+}
+}
 \source{
 John HJ Einmahl, Anna Kiriliouk, Andrea Krajina, and Johan Segers. "An m-estimator of spatial tail dependence."  Journal of the Royal Statistical Society: Series B (Statistical Methodology), 78(1):275-298, 2016.
 }
 \description{
-3-day maximal wind gusts, Netherlands
- 
-3-day maxima measured in 0.1 m/s from only the summer months of June, July, August, between 1st January 1990 to May 16th 2012. 
+3-day maxima measured in 0.1 m/s from only the summer months of June, July, August, between 1st January 1990 to May 16th 2012.
 Locations of the 22 inland weather stations in the Netherlands at which the data are measured are also given.
 }
 \keyword{data}

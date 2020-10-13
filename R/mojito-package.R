@@ -52,10 +52,10 @@ NULL
 
 
 #' 3-day maximal wind gusts, Netherlands
-#'  
-#' 3-day maxima measured in 0.1 m/s from only the summer months of June, July, August, between 1st January 1990 to May 16th 2012. 
+#'
+#' 3-day maxima measured in 0.1 m/s from only the summer months of June, July, August, between 1st January 1990 to May 16th 2012.
 #' Locations of the 22 inland weather stations in the Netherlands at which the data are measured are also given.
-#' 
+#'
 #' @name KNMIdata
 #' @aliases KNMIdata
 #' @docType data
@@ -71,12 +71,27 @@ NULL
 #' Maximum daily temperatures
 #'
 #' Maximum daily temperatures in deg C during summer months only.  Data has been pre-processed from the published data.
-#' 
+#'
 #' @name heatwave.dat
 #' @docType data
 #' @format A \code{vector} of numeric values of temperatures.
 #' @source H. C. Winter and J. A. Tawn "Modelling heatwaves in central France: a case-study in extremal dependence", Appl. Statist., 65 (2016), 345 -- 365. EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED: 	Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface air temperature and precipitation series for the European Climate Assessment. Int. J. of Climatol., 22, 1441-1453. Data and metadata available at http://www.ecad.eu
 NULL
+
+#' Death Valley maximum daily temperatures
+#'
+#' Daily maximum temperatures recorded in Furnace Creek, Death Valley. Provided
+#' on request by National Centers for Environmental Information:
+#' https://www.ncdc.noaa.gov/
+#'
+#' @name dv
+#' @docType data
+#' @format A \code{data.frame} with dates, maximum daily temperature, and the
+#'   expected values and residuals from a generalized additive mixed model
+#'   allowing for an annual cycle.
+#' @keywords data
+NULL
+
 
 #' Data for teaching and learning extreme value modelling
 #'

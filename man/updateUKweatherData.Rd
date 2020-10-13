@@ -5,8 +5,11 @@
 \alias{updateAZN}
 \title{Read data obtained from UK Historic Weather Station Data and AZN price data and create data objects}
 \usage{
-updateUKweatherData(dataPath = "data/",
-  eskdalemuir = "eskdalemuir.txt", newtonrigg = "newtonrigg.txt")
+updateUKweatherData(
+  dataPath = "data/",
+  eskdalemuir = "eskdalemuir.txt",
+  newtonrigg = "newtonrigg.txt"
+)
 }
 \arguments{
 \item{dataPath}{String giving path to the downloaded .txt files. Defaults
@@ -24,5 +27,9 @@ Use \code{tail(eksdalemuir)} and \code{tail(newtonrigg)} to find
 out if it worked. You might want to delete the .txt files once you're done.
 These functions are intended for use to update the course data prior to
 it being run and are not intended for use by the students.
+NOTE THAT the function assumes the first line of the txt weather files is the
+one starting with "yyyy mm ...". Also NOTE THAT to get the AZN data, go to
+Yahoo finance UK, find AZN, look for the "Historical data" link in the
+bar along the top. The start date is 10-24-1993 (i.e. US format).
 }
 \keyword{internal}

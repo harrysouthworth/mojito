@@ -5,14 +5,16 @@
 \alias{eskdalemuir}
 \alias{newtonrigg}
 \title{UK weather station data}
-\format{A \code{data.frame}:
+\format{
+A \code{data.frame}:
 \describe{
   \item{yyyy,mm}{The year and month.}
   \item{tmax}{Mean daily maximum and minimum temperature.}
   \item{af}{Days of air frost}
   \item{rain}{Total rainfall.}
   \item{sun}{Total sunshine duration.}
-}}
+}
+}
 \source{
 UK Met Office website: https://www.metoffice.gov.uk/public/weather/climate-historic/#?tab=climateHistoric
 }

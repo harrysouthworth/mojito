@@ -4,11 +4,13 @@
 \name{venezuelaRain}
 \alias{venezuelaRain}
 \title{Venezuela rainfall data}
-\format{A \code{data.frame}:
+\format{
+A \code{data.frame}:
 \describe{
   \item{Year,Month,Day}{Numeric values for year, month and day.}
   \item{Rainfall}{Daily rainfall.}
-}}
+}
+}
 \description{
 Daily rainfall data in Venezuela from 1961 to 1999.
 }
